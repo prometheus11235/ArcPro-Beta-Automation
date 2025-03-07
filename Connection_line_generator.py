@@ -1,11 +1,11 @@
 import arcpy
 
 # Set the workspace (update the path to your geodatabase or folder)
-arcpy.env.workspace = r"C:\Users\patri\Documents\PROJECTS\COTTONWOOD AREA 1\STO-C2-FDH47\GDBs\DEVELOPMENT.gdb"
+arcpy.env.workspace = r"PATH_TO_GDB"
 
 # Input feature classes (update these names/paths as needed)
-point_fc = r"C:\Users\patri\Documents\PROJECTS\COTTONWOOD AREA 1\STO-C2-FDH47\GDBs\DEVELOPMENT.gdb\Handholes"   # Input point feature class
-line_fc = r"C:\Users\patri\Documents\PROJECTS\COTTONWOOD AREA 1\STO-C2-FDH47\GDBs\DEVELOPMENT.gdb\CENTERLINE_TEST"     # Input line feature class
+point_fc = r"PATH_TO_FC"   # Input point feature class
+line_fc = r"PATH_TO_FC"     # Input line feature class
 
 # Output feature class names
 append_points = "Append_Points"        # Copy of original points with connection number

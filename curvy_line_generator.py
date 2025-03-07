@@ -52,8 +52,8 @@ def generate_segments(main_line_fc, snapped_points_fc, output_fc_name):
 
 def main():
     # Set valid paths for your environment.
-    main_line = r"C:\Users\patri\Documents\PROJECTS\COTTONWOOD AREA 1\STO-C2-FDH47\GDBs\DEVELOPMENT.gdb\CENTERLINE_TEST"
-    snapped_pts = r"C:\Users\patri\Documents\PROJECTS\COTTONWOOD AREA 1\STO-C2-FDH47\GDBs\DEVELOPMENT.gdb\Line_Points"
+    main_line = r"PATH_TO_FC"
+    snapped_pts = r"PATH_TO_FC"
     output_fc = "RouteSegments"
     result = generate_segments(main_line, snapped_pts, output_fc)
     print("Generated route segments at:", result)
